@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PANTE Capture 테스트 — 개인정보처리방침</title>
+    <meta
+      name="description"
+      content="PANTE Capture 테스트(TestFlight) 참여자의 촬영 자료를 어떻게 모으고 지키는지에 대한 안내입니다."
+    />
+    <!-- 테스트 참여자에게만 보이는 안내 — 검색에 올리지 않는다 -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" type="image/png" href="./favicon.png?v=2" />
+    <link rel="apple-touch-icon" href="./favicon.png?v=2" />
+    <style>
+      :root { --bg:#0a0a0a; --fg:#ededed; --fg-muted:#9a9a9a; --accent:#9ccc65; }
+      * { box-sizing: border-box; }
+      body { margin:0; background:var(--bg); color:var(--fg); -webkit-font-smoothing:antialiased;
+        font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", "Segoe UI", Roboto, sans-serif; }
+      a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+      .nav { position: sticky; top:0; display:flex; align-items:center; padding:14px 20px;
+        background: color-mix(in srgb, var(--bg) 82%, transparent); backdrop-filter: blur(10px); }
+      .brand { display:inline-flex; align-items:center; gap:10px; color:var(--fg); font-weight:700; letter-spacing:.04em; }
+      .brand-mark { border-radius:7px; }
+      .footer { max-width:720px; margin:0 auto; padding:24px 20px 48px; color:var(--fg-muted); font-size:.9rem; }
+    </style>
+    <style>
+      .policy {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 20px 64px;
+      }
+      .policy h1 {
+        font-size: clamp(1.6rem, 4vw, 2.2rem);
+        line-height: 1.25;
+        margin: 0 0 8px;
+      }
+      .policy .meta {
+        color: var(--fg-muted, #9a9a9a);
+        margin: 0 0 32px;
+      }
+      .policy h2 {
+        font-size: 1.15rem;
+        margin: 36px 0 10px;
+        color: var(--accent);
+      }
+      .policy p,
+      .policy li {
+        line-height: 1.7;
+      }
+      .policy ul {
+        padding-left: 1.2em;
+      }
+      .policy li + li {
+        margin-top: 6px;
+      }
+      .policy table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 12px 0;
+        font-size: 0.95rem;
+      }
+      .policy th,
+      .policy td {
+        text-align: left;
+        vertical-align: top;
+        padding: 8px 10px;
+        border-top: 1px solid rgba(255, 255, 255, 0.12);
+      }
+      .policy th {
+        white-space: nowrap;
+        width: 9em;
+        color: var(--fg-muted, #9a9a9a);
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="nav">
+      <a class="brand" href="https://pante.ai" aria-label="PANTE home">
+        <img class="brand-mark" src="./pante-mark.png" alt="" width="28" height="28" />
+        <span class="brand-name">PANTE</span>
+      </a>
+    </header>
+
+    <main class="policy">
+      <h1>PANTE Capture 테스트 — 개인정보처리방침</h1>
+      <p class="meta">시행일 2026년 10월 16일 · 적용 대상: TestFlight 로 배포하는 PANTE Capture 테스트판</p>
+
+      <p>
+        제스트(주)(이하 "회사")는 PANTE Capture 테스트판(이하 "앱")을 미리 써 보는 분들이 보내 주시는 촬영 자료를
+        아래와 같이 모으고, 쓰고, 지킵니다. 이 안내는 앱의 <strong>[촬영 자료 수집 동의]</strong> 화면에서 약속한 내용을
+        그대로 옮긴 것입니다.
+      </p>
+
+      <h2>1. 무엇을 모으나요</h2>
+      <p>
+        앱은 <strong>결과 화면에서 [IFC · 도면 전환]을 누를 때만</strong> 자료를 보냅니다. 촬영만 하고 보내지 않으면 아무것도
+        회사에 오지 않습니다. 보내는 자료는 다음과 같습니다.
+      </p>
+      <ul>
+        <li>촬영한 공간의 3D 형상(메시), 사진, 깊이 값, 촬영 경로</li>
+        <li>결과 화면에서 직접 적어 주신 길이(줄자 값)와 의견</li>
+        <li>보낸 기기의 종류와 iOS 판, 앱 판, 보낸 시각</li>
+        <li>기기 탭에 <em>적어 주셨을 때만</em> 이름 또는 회사명</li>
+      </ul>
+      <p>
+        사진에는 사람의 얼굴, 서류, 개인 물건이 찍힐 수 있습니다. 원치 않는 것은 촬영 전에 치워 주세요. 회사는 사진으로
+        사람을 식별하려 하지 않습니다.
+      </p>
+
+      <h2>2. 왜 모으나요</h2>
+      <ul>
+        <li>보내 주신 촬영 자료로 IFC 모형과 도면(DWG)을 만들어 앱으로 돌려드리기 위해</li>
+        <li>앱과 도면 생성 기술을 개선하고 연구하기 위해</li>
+      </ul>
+      <p>광고나 마케팅에 쓰지 않고, 제3자에게 팔거나 넘기지 않습니다.</p>
+
+      <h2>3. 어떻게 지키나요</h2>
+      <ul>
+        <li>자료는 보내기 전에 <strong>휴대폰 안에서 암호화</strong>되며, 회사의 PANTE 서버만 열 수 있습니다.</li>
+        <li>전송 경로는 암호화된 연결(HTTPS · Tailscale)을 씁니다. 전송 경로 제공자는 내용을 볼 수 없습니다.</li>
+        <li>자료는 <strong>회사가 관리하는 사무실 컴퓨터</strong>에 저장합니다. 외부 클라우드에 위탁하지 않습니다.</li>
+        <li>접근은 개발 담당자로 한정합니다.</li>
+      </ul>
+
+      <h2>4. 얼마나 보관하나요</h2>
+      <p>
+        테스트가 끝난 뒤 <strong>1년</strong> 동안 보관하고 지웁니다. 그 전이라도 삭제를 요청하시면 <strong>바로</strong>
+        지웁니다. 함께 만든 IFC 모형과 도면도 같이 지웁니다.
+      </p>
+
+      <h2>5. 거절하거나 바꿀 수 있나요</h2>
+      <ul>
+        <li>동의하지 않아도 촬영과 결과 보기는 그대로 쓸 수 있습니다. 자료만 보내지 않습니다.</li>
+        <li>앱의 <strong>기기 탭 → 촬영 자료 보내기</strong>에서 언제든 켜고 끌 수 있습니다.</li>
+        <li>이미 보낸 자료의 열람 · 삭제는 아래 담당자에게 요청하시면 됩니다.</li>
+      </ul>
+
+      <h2>6. 담당자</h2>
+      <table>
+        <tr>
+          <th>회사</th>
+          <td>제스트(주)</td>
+        </tr>
+        <tr>
+          <th>개인정보 보호책임자</th>
+          <td>박찬일</td>
+        </tr>
+        <tr>
+          <th>연락처</th>
+          <td><a href="mailto:0114chan@pante.ai">0114chan@pante.ai</a></td>
+        </tr>
+      </table>
+      <p>이 안내가 바뀌면 앱의 동의 화면에서 다시 알리고, 이 페이지의 시행일을 고칩니다.</p>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-row">
+        <a class="brand" href="https://pante.ai" aria-label="PANTE home">
+          <img class="brand-mark" src="./pante-mark.png" alt="" width="22" height="22" />
+          <span class="brand-name">PANTE</span>
+        </a>
+      </div>
+      <p class="footer-fine">© 2026 제스트(주) · PANTE</p>
+    </footer>
+  </body>
+</html>
